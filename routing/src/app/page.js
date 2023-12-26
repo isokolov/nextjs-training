@@ -1,3 +1,4 @@
+import Nav from '@/components/nav';
 import Link from 'next/link';
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
             <Link href='/users/profile/66'>Users 66</Link>
           </li>
         </ul>
+        <Nav />
       </div>
     </>
   );
